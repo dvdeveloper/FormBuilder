@@ -1,0 +1,50 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dv Developer - Formbuilder</title>
+    
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="formbuilder.css">
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="formbuilder.js"></script>
+
+</head>
+<body>
+
+    <div class="form-contenido container">
+        <h2 class="dv"> <a href="http://diegovalladares.cl/proyectos">Dv Developer</a> </h2>
+            <div class="tool_form">
+                <div class="header-buildform"> <span class="glyphicon glyphicon-wrench"></span> Herramientas </div>
+                <div class="tool-buildform">
+                        <ul id="sortable-element" class="connectedSortable">
+                            <li class="ui-state-default btn btn-default" attr-type="text"><span class="glyphicon glyphicon-chevron-right"></span> Cuadro de Texto</li>
+                            <li class="ui-state-default btn btn-default" attr-type="textarea"><span class="glyphicon glyphicon-chevron-right"></span> Area de Texto</li>
+                            <li class="ui-state-default btn btn-default" attr-type="lista"><span class="glyphicon glyphicon-chevron-right"></span> Lista</li>
+                            <li class="ui-state-default btn btn-default" attr-type="checklist"><span class="glyphicon glyphicon-chevron-right"></span> Casilla de verificación</li>
+                            <li class="ui-state-default btn btn-default" attr-type="radio"><span class="glyphicon glyphicon-chevron-right"></span> Botón radio</li>
+                        </ul>
+                    <div class="form-guardar">
+                        <button id="btn-guardar-formbuilder" class="btn btn-danger btn-block" href="#">Guardar Formulario</button>
+                    </div>
+                </div>
+            </div>
+            <div class="view-formbuilder">
+                <ul id="sortable-content" class="connectedSortable formbuilder-dynamic"> 
+                    <h3 class="dropzone">Arrastra aquí las herramientas para crear un formulario</h3>
+                </ul>
+            </div>
+    </div>
+
+    <div id="dialog-form" title="Propiedades" style="display:none">
+        <div class="body-propiedades"></div>
+    </div>
+
+    <form method="post" id="form-submit" action="resultado.php">
+        <input type="hidden" id="objecto_form" name="objecto"/>
+    </form>
+
+</body>
+</html>
