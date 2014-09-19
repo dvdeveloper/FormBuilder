@@ -1,7 +1,22 @@
 FormBuilder
 ===========
 
-Formbuilder es un proyecto en el cual consiste en crear input de un formulario dinámicamente e intuitivo, utilizando jquery 1.10.x y bootstrap 3.x en el desarrollo. Se implementó un pequeño debuger para mostrar los datos en un archivo php que es generado en un javascript y enviado en formato json. 
+Crea formulario dinámicamente con sus propiedades y obtén un debug completo de cada componente en formato JSON.
+Componentes permitidos:
+
+1)	Input text
+2)	Textarea
+3)	Select (dropdown)
+4)	Checkbox
+5)	Radio Button
+
+
+Plugins
+--------------------------------------
+1. Jquery
+2. bootstrap
+
+![Alt text](http://www.subeimagenes.com/img/formbuilder-1097527.jpg "Principal")
 
 <h2>Demo Online </h2>
-<a href="http://diegovalladares.cl/demo/formbuilder/">Ver demo aquí</a>
+<a href="http://dvdeveloper.github.io/FormBuilder/">Ver demo aquí</a>
