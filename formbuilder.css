@@ -1,0 +1,53 @@
+body{ background: #EAEAEA; }
+li{ list-style: none; }
+
+.dv{ padding-bottom: 30px; }
+.form-contenido{ overflow: hidden; min-height: 500px; margin-top: 20px; margin-bottom: 40px; }
+.tool_form{ display: block; width: 20%; float: left; overflow: hidden;  min-height: 300px; background: #EBEDEF; border: 1px solid #CCC; }
+.view-formbuilder{ display: block; float: right; width: 77%; background: #FFF; min-height: 500px; border: 1px solid #CCC; }
+
+.header-buildform{ text-align: center; padding: 5px; color: #000; font-weight: bold; font-size: 14px; background: #F7F7F9; margin-bottom: 20px;  }
+.formbuilder-dynamic{ padding: 20px; min-height: 200px; margin: 20px; padding: 20px 10px 20px 10px; background: #F7F7F9; border: 1px solid #CCC; }
+.dropzone{ text-align: center; margin-top: 60px; }
+
+#sortable-element{ margin-left: -30px !important; margin-right: 10px; }
+#sortable-element li { display: block; margin-bottom: 10px; padding: 5px; text-align: left;  }
+
+
+.input-dynamic{  padding: 5px 20px 10px 20px; }
+.input-dynamic input{ padding: 5px; width: 80%; margin-left: 15px; }
+.input-dynamic textarea{ padding: 5px; width: 80%; margin-left: 15px; }
+.input-dynamic select{ padding: 5px; width: 80%; margin-left: 15px; }
+.textarea-left{ padding-left: 15px; }
+
+.radio-check{ border: 1px solid #CCC; width: 80%; margin-left: 13px; }
+.radio-check input{ width: 0% !important; }
+
+.input-dynamic:hover{ background: #FDFCE9;  }
+.helper_form{ background: #000; }
+.input-delete{ display: block; float: right; }
+
+.btn-builderform{ display: block;  text-align: center; color: #FFF; background: #CF3B19; padding: 4px; margin: 10px;  text-decoration: none; }
+.btn-builderform:hover {  background: #AB2F14; color: #FFF; text-decoration: none; }
+
+.edit-builderform p{ margin-bottom: 0px; }
+.edit-builderform{ margin: 10px; }
+
+.list-inputform{ background: #F7F7F9; padding: 5px; border: 1px solid #CCC; }
+.list-inputform li{ margin-bottom: 5px;  }
+.list-inputform li input{ width: 90%; padding: 5px; }
+
+.list-buildergeneral{  padding: 10px; border: 1px solid #CCC; background: #F7F7F9; }
+.list-buildergeneral p{ font-weight: bold; margin-bottom: 10px; }
+.list-buildergeneral input{ width: 100%; padding: 5px; }
+.btn-add-check{ text-align: center; display: block; margin-top: 20px; background: #468E3F; color: #FFF; padding: 5px; text-decoration: none; margin-bottom: 10px; }
+.btn-add-check:hover{ color: #FFF; }
+
+#dialog-form{ border: 1px solid #CCC; background: #FFF; padding: 10px; }
+.ui-widget-header{ background: #F7F7F9; color: #FFF; border: 1px solid #CCC; border-bottom: 0px !important; padding: 10px; }
+.ui-dialog-titlebar-close{ float: right;  }
+.ui-dialog-title{ color: #000; font-weight: bold; padding: 4px; }
+.ui-dialog-titlebar-close{ height: 10px; margin-top: 5px; margin-right: 5px; }
+
+.form-guardar{ padding: 10px; }
+.debugg{ background: #FFF; border: 1px solid #CCC; padding: 10px; }
